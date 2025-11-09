@@ -1,12 +1,44 @@
-# React + Vite
+# 🔐 Random Password Generator (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Password Generator App** built using **React** and **Tailwind CSS**.  
+Users can generate secure passwords with customizable options like **length**, **uppercase**, **lowercase**, **numbers**, and **special characters**, just like real password tools.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✅ Generate strong random passwords  
+✅ Choose password **length**  
+✅ Include or exclude:
+- Uppercase letters (A–Z)
+- Lowercase letters (a–z)
+- Numbers (0–9)
+- Special characters (!@#$%^&*)  
+✅ **Copy to clipboard** feature  
+✅ Responsive, modern UI built with Tailwind CSS  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack
+
+- ⚛️ **React.js** – for logic and component management  
+- 🎨 **Tailwind CSS** – for styling and responsive design  
+- 📋 **Clipboard API** – for one-click copy functionality  
+
+---
+
+## 🧠 Learning Highlights
+
+- Used React **useState** and **useEffect** hooks  
+- Practiced handling **form inputs and state**  
+- Generated random strings dynamically based on user preferences  
+- Styled the app with Tailwind utility classes  
+- Added copy-to-clipboard logic using the **navigator.clipboard API**
+
+---
+
+## ⚙️ How to Run Locally
+
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/itsRaiAadi/react-password-generator.git
